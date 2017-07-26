@@ -32,6 +32,7 @@ class NeuralNetwork:
     middle_layer = [Neuron(), Neuron(), 1.0]
     output_layer = Neuron()
 
+	# 
     # 実行
     def commit(self, input_data):
         #角層のリセット
